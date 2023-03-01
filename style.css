@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hide {
+    display: none;
+  }
+  .car , .enemy {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    background-image: url(car2.png);
+    background-size: cover;
+  }
+  .gameArea {
+    background-color: black;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    left: 37%;
+  }
+  .line {
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left: 195px;
+    background-color: white;
+  }
+  .score {
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    color: rgb(233, 15, 15);
+    font-size: 1.5em;
+    font-family: fantasy;
+  }
+  .startScreen {
+    /* font-size: large; */
+    text-align: center;
+    border: 1px solid red;
+    padding: 15px;
+    margin: auto;
+    width: 600px;
+    background-color: pink;
+    font-weight: bold;
+  }
+  body{
+  
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/277/175/original/forest-game-background-free-vector.jpg);
+    
+  }
