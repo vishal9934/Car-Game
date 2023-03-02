@@ -23,6 +23,8 @@
     position: absolute;
     margin: auto;
     left: 37%;
+    border-left: 10px dashed rgb(221, 255, 0);
+    border-right: 10px dashed rgb(221, 255, 0);
   }
   .line {
     position: absolute;
